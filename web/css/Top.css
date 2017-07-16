@@ -1,0 +1,79 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2017/5/19, 上午 10:53:18
+    Author     : JimmyYang
+*/
+body{
+    font-family: '微軟正黑體';
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    border:0px;
+}
+
+th, td {
+    text-align: center;
+    padding: 8px;
+}
+
+tr:nth-child(even){/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffffff+0,f3f3f3+50,ededed+51,ffffff+100;White+Gloss+%232 */
+    background: rgb(255,255,255); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(243,243,243,1) 50%, rgba(237,237,237,1) 51%, rgba(255,255,255,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(243,243,243,1) 50%,rgba(237,237,237,1) 51%,rgba(255,255,255,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff',GradientType=0 ); /* IE6-9 */}
+
+th {
+    background-color: #C10066;
+    color: white;
+}
+
+.button {
+    border-radius: 5px;
+    font-family: '微軟正黑體';
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#125e37+0,188644+50,137b3e+51,21b95b+100 */
+    background: rgb(18,94,55); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(18,94,55,1) 0%, rgba(24,134,68,1) 50%, rgba(19,123,62,1) 51%, rgba(33,185,91,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(18,94,55,1) 0%,rgba(24,134,68,1) 50%,rgba(19,123,62,1) 51%,rgba(33,185,91,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(18,94,55,1) 0%,rgba(24,134,68,1) 50%,rgba(19,123,62,1) 51%,rgba(33,185,91,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#125e37', endColorstr='#21b95b',GradientType=0 ); /* IE6-9 */
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.logout {
+    border-radius: 5px;
+    font-family: '微軟正黑體';
+    width: 100%;
+    /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#5e1228+0,861840+50,7b1338+51,b9215b+100 */
+    background: rgb(94,18,40); /* Old browsers */
+    background: -moz-linear-gradient(top, rgba(94,18,40,1) 0%, rgba(134,24,64,1) 50%, rgba(123,19,56,1) 51%, rgba(185,33,91,1) 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, rgba(94,18,40,1) 0%,rgba(134,24,64,1) 50%,rgba(123,19,56,1) 51%,rgba(185,33,91,1) 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, rgba(94,18,40,1) 0%,rgba(134,24,64,1) 50%,rgba(123,19,56,1) 51%,rgba(185,33,91,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e1228', endColorstr='#b9215b',GradientType=0 ); /* IE6-9 */
+    border: none;
+    color: white;
+    padding: 10px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.href { text-decoration : none; color:#4D2078;  height: 20px; width: 130px; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px ; border: 1px #A498BD solid ; filter: Blur(Add=1, Direction=45, Strength=2) ; text-align: center }
+.href:hover{ text-decoration : none; color:#9900CC ; height: 20px; width: 130px; padding-top: 4px; padding-right: 4px; padding-bottom: 4px; padding-left: 4px ; border: 1px #BDAAE2 solid ; filter: Blur(Add=1, Direction=45, Strength=1) ; text-align: center }
